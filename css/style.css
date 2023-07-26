@@ -1,0 +1,160 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	margin: 0;
+	padding:25px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 18px;
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin: 0;
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	display: inline-block;
+	margin-right: 96px;
+	color: #626262;
+	border: 1px solid transparent;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s;
+}
+ .menu ul li a:hover{
+     border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*photodiary start*/
+.photodiary{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.w_content{}
+.c_tag{
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+.c_tittle{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+.n_1{
+	margin-bottom: 30px;
+}
+/*photodiary end*/
+/*blog start*/
+.blog{
+	padding: 0 0 80px;
+}
+.s_blog{
+ margin-top: 90px;
+ width: 47%;
+ float: left;
+ box-sizing: border-box;
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+ margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+.
+/*blog end*/
+/*form start*/
+.form{}
+.signup{
+	background-color: #f0f0f0;
+    padding: 70px 0;
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.s_form input{
+	padding-left: 5px;
+	padding-right: 45px;
+	width: 345px;
+	height: 45px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: none;
+}
+.s_form button img{}
+/*form end*/
